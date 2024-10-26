@@ -24,9 +24,9 @@ int main() {
 
 	countEvenOdd(&x, &y, &z, &even, &odd);
 
-	std::cout << "Кiлькiсть парних чисел" << even << std::endl;
+	std::cout << "Кiлькiсть парних чисел: " << even << std::endl;
 
-	std::cout << "Кiлькiсть непарнх чиел" << odd << std::endl;
+	std::cout << "Кiлькiсть непарнх чиел: " << odd << std::endl;
 
 	return 0;
 }
