@@ -2,9 +2,6 @@
 
 void countEvenOdd(int* a, int* b, int* c, int* evenCount, int* oddCount) {
 
-	*evenCount = 0;
-	*oddCount = 0;
-
 	if (*a % 2 == 0) (*evenCount)++;
 	else (*oddCount)++;
 
