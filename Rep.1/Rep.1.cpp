@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 
 void copyValue(int* source, int* destination) {
-	if (source != 0 && destination != 0) {
+	if (*source != 0 && *destination != 0) {
 		*source = *destination;
 	}
 }
